@@ -1,0 +1,240 @@
+@font-face {
+    font-family: ChuckFont;
+    src: url(RawengulkLight.ttf);
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url(RawengulkRegular.ttf);
+}
+
+body {
+	font-family: ChuckFont;
+	padding: 0px
+	width: 100%;
+}
+
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   text-align: center;
+   font-family: BodyFont;
+}
+
+p {
+	font-size: 20px;
+	font-family: BodyFont;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: ChuckFont;
+}
+
+h4 {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: BodyFont;
+}
+
+h3 {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: ChuckFont;
+}
+
+h3:hover {
+	color: #1F727F;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+h4:hover {
+	color: #1F727F;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #C7C8FF;
+	text-decoration: underline;
+}
+
+video {
+	margin-left:50px;
+}
+
+
+
+.logo {
+	 background: url('Logonew.svg');
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 height: 410px;
+	 width: 410px;
+   	 top: 55%;
+     left: 54.5%;
+     margin-top: -250px; 
+     margin-left: -250px; 
+ 	
+}
+/*
+.logo:hover {
+	 background: url('Logonewplay.svg');
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 height: 410px;
+	 width: 410px;
+   	 top: 55%;
+     left: 53%;
+     margin-top: -250px; 
+     margin-left: -250px; 
+	
+}
+*/
+.upper-left {
+	font-family: ChuckFont;
+	position: absolute;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 300%;
+    top: 40%;
+    left: 26%;
+    margin-top: -300px; 
+    margin-left: -250px; 
+}
+
+.upper-right {
+	position: absolute;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 300%;
+	top: 40%;
+    left: 104%;
+    margin-top: -300px; 
+    margin-left: -250px; 
+}
+
+.lower-left {
+	position: absolute;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 300%;
+	top: 90%;
+    left: 26%;
+    margin-top: -150px; 
+    margin-left: -250px; 
+}
+
+.lower-right {
+	position: absolute;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 300%;
+	top: 90%;
+    left: 104%;
+    margin-top: -150px; 
+    margin-left: -270px; 
+    text-align: center;
+}
+
+.about-field {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.content-about {
+	position: absolute;
+   	top: 45%;
+    left: 50%;
+    margin-top: -150px; 
+    margin-left: -400px;
+    margin-right: 150px; 
+    
+}
+
+.content-video {
+	position: absolute;
+   	top: 60%;
+    left: 35%;
+    margin-top: -400px; 
+    margin-left: -400px;
+    margin-right: 150px;
+    display: inline; 
+}
+
+.content-coding {
+	position: absolute;
+	display: block;
+   	top: 33%;
+    left: 50%;
+    margin-top: -150px; 
+    margin-left: -500px;
+    margin-right: 150px; 
+}
+
+.content-resume {
+	position: absolute;
+   	top: 33%;
+    left: 50%;
+    margin-top: -150px; 
+    margin-left: -500px;
+    margin-right: 150px; 
+}
+
+img .headshot {
+	float: left;
+	margin: 0px 15px 15px 0px;
+	display: inline;
+	
+}
+
+p .about-text {
+	float: right;
+	
+}
+.display {
+	display: block;
+}
+
+.backbutton-about {
+	text-align: right;
+	position: relative;
+	display: inline;
+}
+
+.backbutton-coding  {
+	text-align: right;
+	position: relative;
+	display: inline;
+	top: 400px;
+}
+
+.backbutton-resume, .backbutton-video {
+	text-align: left;
+	
+}
+
+.filemaker-juma {
+	position: absolute;
+	width: 300px;
+	left: 350px;
+}
+
+.filemaker-meeting {
+	position: absolute;
+	width: 300px;
+	left: 700px;
+}
+
+.websites {
+	position: absolute;
+    width: 300px;
+    left: 0px;
+   }
