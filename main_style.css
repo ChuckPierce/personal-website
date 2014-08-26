@@ -151,7 +151,11 @@ video {
 
 .content-about {
 	position: absolute;
+<<<<<<< HEAD
    	top: 45%;
+=======
+   	top: 55%;
+>>>>>>> a785a0f4474bcf6398884ceff928c98e3d6515fd
     left: 50%;
     margin-top: -150px; 
     margin-left: -400px;
@@ -161,7 +165,11 @@ video {
 
 .content-video {
 	position: absolute;
+<<<<<<< HEAD
    	top: 60%;
+=======
+   	top: 68%;
+>>>>>>> a785a0f4474bcf6398884ceff928c98e3d6515fd
     left: 35%;
     margin-top: -400px; 
     margin-left: -400px;
@@ -172,7 +180,11 @@ video {
 .content-coding {
 	position: absolute;
 	display: block;
+<<<<<<< HEAD
    	top: 33%;
+=======
+   	top: 25%;
+>>>>>>> a785a0f4474bcf6398884ceff928c98e3d6515fd
     left: 50%;
     margin-top: -150px; 
     margin-left: -500px;
@@ -181,7 +193,11 @@ video {
 
 .content-resume {
 	position: absolute;
+<<<<<<< HEAD
    	top: 33%;
+=======
+   	top: 35%;
+>>>>>>> a785a0f4474bcf6398884ceff928c98e3d6515fd
     left: 50%;
     margin-top: -150px; 
     margin-left: -500px;
