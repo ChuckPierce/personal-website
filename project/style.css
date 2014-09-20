@@ -88,7 +88,9 @@ ul {
 MAIN PAGE- NAVIGATION
 *******************************/
 
-
+nav {
+	margin-top: .5%;
+}
 nav ul {
   	display: -webkit-box;
   	display: -webkit-flex;
@@ -123,14 +125,18 @@ nav li {
 MAIN PAGE- LOGO
 *******************************/
 
-.logo {
-	 background: url('Chuck website logo new.png');
-	 background-size: contain;
-	 background-repeat: no-repeat;
+#logo {
 	 height: 200px;
 	 width: 200px;
 	 margin: auto;
-	 float: left;
+}
+
+#imglogo {
+	 background: url('logo.png');
+	 background-size: contain;
+	 background-repeat: no-repeat;
+  	 margin-top: .5%;
+  	 height: 100%;
 }
 
 
@@ -239,7 +245,7 @@ PHONES TO TABLETS
 	LOGO FOR TABLETS
 	*******************************/
 
-	.logo {
+	#logo {
 	 	height: 300px;
 	 	width: 300px;
 	}
@@ -327,7 +333,7 @@ TABLETS TO DESKTOP
 	*******************************/
 
 
-	.logo {
+	#logo {
 	 	height: 400px;
 		width: 400px;
 	}
